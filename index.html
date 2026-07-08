@@ -6,7 +6,7 @@
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<title>Churn Toteat — 07/07/2026</title>
+<title>Churn Toteat — 08/07/2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -120,17 +120,17 @@
 <div class="topbar">
   <div class="topbar-logo">tot<em>eat</em></div>
   <div class="topbar-right">
-    <span class="topbar-date">Reporte Churn · 07/07/2026</span>
-    <span class="topbar-badge">152 locales</span>
+    <span class="topbar-date">Reporte Churn · 08/07/2026</span>
+    <span class="topbar-badge">161 locales</span>
   </div>
 </div>
 
 <div class="kpis">
-  <div class="kpi accent"><div class="val" id="kpi-total">152</div><div class="lbl">Total en churn</div></div>
-  <div class="kpi green"><div class="val" id="kpi-nuevos">22</div><div class="lbl">Nuevos hoy</div></div>
+  <div class="kpi accent"><div class="val" id="kpi-total">161</div><div class="lbl">Total en churn</div></div>
+  <div class="kpi green"><div class="val" id="kpi-nuevos">18</div><div class="lbl">Nuevos hoy</div></div>
   <div class="kpi orange"><div class="val" id="kpi-early">0</div><div class="lbl">Early churn &lt;90d</div></div>
   <div class="kpi"><div class="val" id="kpi-sinkam">11</div><div class="lbl">Sin KAM</div></div>
-  <div class="kpi"><div class="val" id="kpi-legacy">118</div><div class="lbl">Legacy</div></div>
+  <div class="kpi"><div class="val" id="kpi-legacy">127</div><div class="lbl">Legacy</div></div>
   <div class="kpi"><div class="val" id="kpi-new">34</div><div class="lbl">New Platform</div></div>
 </div>
 
@@ -139,8 +139,8 @@
       <div>
         <div class="cc-name">Colombia</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="cc-count">70</span>
-          <div class="cc-pills"><span class="pill-new">+4 nuevos</span></div>
+          <span class="cc-count">72</span>
+          <div class="cc-pills"><span class="pill-new">+6 nuevos</span></div>
         </div>
       </div>
     </div><div class="cc" data-pais="Chile" onclick="setPais('Chile')" title="Filtrar por Chile">
@@ -148,8 +148,8 @@
       <div>
         <div class="cc-name">Chile</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="cc-count">51</span>
-          <div class="cc-pills"><span class="pill-new">+17 nuevos</span></div>
+          <span class="cc-count">55</span>
+          <div class="cc-pills"><span class="pill-new">+8 nuevos</span></div>
         </div>
       </div>
     </div><div class="cc" data-pais="México" onclick="setPais('México')" title="Filtrar por México">
@@ -157,8 +157,8 @@
       <div>
         <div class="cc-name">México</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="cc-count">19</span>
-          <div class="cc-pills"><span class="pill-new">+1 nuevos</span></div>
+          <span class="cc-count">21</span>
+          <div class="cc-pills"><span class="pill-new">+2 nuevos</span></div>
         </div>
       </div>
     </div><div class="cc" data-pais="Argentina" onclick="setPais('Argentina')" title="Filtrar por Argentina">
@@ -166,17 +166,17 @@
       <div>
         <div class="cc-name">Argentina</div>
         <div style="display:flex;align-items:center;gap:6px">
-          <span class="cc-count">12</span>
-          <div class="cc-pills"></div>
+          <span class="cc-count">13</span>
+          <div class="cc-pills"><span class="pill-new">+2 nuevos</span></div>
         </div>
       </div>
     </div></div>
 
 <div class="toolbar">
   <div class="tabs">
-    <button class="tab active" onclick="switchTab('nuevos',this)">Nuevos (<span id="tabcount-nuevos">22</span>)</button>
+    <button class="tab active" onclick="switchTab('nuevos',this)">Nuevos (<span id="tabcount-nuevos">18</span>)</button>
     <button class="tab" onclick="switchTab('early',this)">Early Churn (<span id="tabcount-early">0</span>)</button>
-    <button class="tab" onclick="switchTab('total',this)">Total (<span id="tabcount-total">152</span>)</button>
+    <button class="tab" onclick="switchTab('total',this)">Total (<span id="tabcount-total">161</span>)</button>
   </div>
   <select id="filterPais" onchange="applyFilters()" style="padding:6px 12px;border-radius:8px;border:1.5px solid #ddd;font-family:'Manrope',sans-serif;font-size:12px;font-weight:600;background:white;cursor:pointer;">
     <option value="">Todos los países</option>
@@ -194,7 +194,6 @@
 <option value="Angelica Chavez">Angelica Chavez</option>
 <option value="Camila Agüero">Camila Agüero</option>
 <option value="Catalina Lopez">Catalina Lopez</option>
-<option value="Fabian Monroy">Fabian Monroy</option>
 <option value="Fernanda Herreros">Fernanda Herreros</option>
 <option value="Fernanda Rossel">Fernanda Rossel</option>
 <option value="Jaqueline Lobaco">Jaqueline Lobaco</option>
@@ -236,97 +235,41 @@
   <th>Días sin apertura</th><th>Fecha Alta</th><th>Días desde alta</th><th>Versión</th>
 </tr>
       
-      <tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Herreros">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6353502865719296-00001</td>
-          <td><strong>TRESSETENTA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fernanda Herreros</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="64.0">$64</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+      <tr style="background:#E8F5E9" data-plat="new" data-pais="Argentina" data-kam="Sin KAM">
+          <td>🇦🇷 Argentina</td>
+          <td class="mono">1782491467717625-00001</td>
+          <td><strong>Helader�a  Del Parque- Buffet (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Sin KAM</td>
+          <td><span class="badge badge-plan"></span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-07-01">7</span></td>
           <td></td>
           <td class="center"></td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">4652178633129984-00001</td>
-          <td><strong>Cerveceria CODA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Argentina" data-kam="Camila Agüero">
+          <td>🇦🇷 Argentina</td>
+          <td class="mono">1180641282276296-00001</td>
+          <td><strong>Eleven  Club (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Camila Agüero</td>
           <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="86.0">$86</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2022-11-30</td>
-          <td class="center">1315</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-07-17</td>
+          <td class="center">356</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
           <td>🇨🇱 Chile</td>
-          <td class="mono">6009672884944896-00002</td>
-          <td><strong>El Templo del Smash Vitacura (2)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="132.0">$132</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2025-10-31</td>
-          <td class="center">249</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">5211164757458944-00001</td>
-          <td><strong>LOCOS POR EL POLLO (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fernanda Rossel</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="84.0">$84</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2022-11-30</td>
-          <td class="center">1315</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6693739748786176-00005</td>
-          <td><strong>La Foca Tobalaba (5)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fernanda Rossel</td>
+          <td class="mono">4687919982968832-00001</td>
+          <td><strong>Club La Peninsula Nuevo (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Maria Martinez</td>
           <td><span class="badge badge-plan">FIJO</span></td>
-          <td class="right" data-mrr="72.0">$72</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6475539405733888-00001</td>
-          <td><strong>MAMAS & TAPAS (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="347.0">$347</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2023-04-30</td>
-          <td class="center">1164</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">5810352961093632-00001</td>
-          <td><strong>Volcano (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Katherine Boscan</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="118.0">$118</td>
+          <td class="right" data-mrr="55.0">$55</td>
           <td>Facturando</td>
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
@@ -336,212 +279,212 @@
         </tr>
 <tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Neyla Morales">
           <td>🇨🇱 Chile</td>
-          <td class="mono">5342135458725888-00001</td>
-          <td><strong>Wanted Burger - Antofagasta (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td class="mono">5338953521692672-00001</td>
+          <td><strong>La Cocina de Renato (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
           <td>Neyla Morales</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="92.0">$92</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1995636757527223-00018</td>
-          <td><strong>ACHOCLONADOS - UDLA - LA FLORIDA (18)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>María Fernanda Soto</td>
-          <td><span class="badge badge-plan">FIJO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td>2026-02-28</td>
-          <td class="center">129</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Sin KAM">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1493434486657908-00202</td>
-          <td><strong>Livingston Bandejeros - Claro Arena (202)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Sin KAM</td>
-          <td><span class="badge badge-plan"></span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-06-06">31</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">4751717633359872-00002</td>
-          <td><strong>EL REY (2)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Maria Martinez</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="171.0">$171</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
-          <td>2025-04-30</td>
-          <td class="center">433</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Sin KAM">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1493434486657908-00004</td>
-          <td><strong>Fouilloux Hotdog - Claro Arena (4)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Sin KAM</td>
-          <td><span class="badge badge-plan"></span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">5732074762141696-00001</td>
-          <td><strong>KAMANGA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="176.0">$176</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td>2024-12-28</td>
-          <td class="center">556</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Katherine Boscan">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">4987075119677440-00007</td>
-          <td><strong>Lady Focaccia Casa Costanera (7)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Katherine Boscan</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="76.0">$76</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-29">8</span></td>
-          <td>2025-01-31</td>
-          <td class="center">522</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6257435044610048-00001</td>
-          <td><strong>Living Club Ovalle (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="138.0">$138</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td>2024-03-31</td>
-          <td class="center">828</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Fernanda Herreros">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">5528444315238400-00001</td>
-          <td><strong>OVO DISCOTEQUE (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fernanda Herreros</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="195.0">$195</td>
-          <td>Facturando</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td>2023-12-31</td>
-          <td class="center">919</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1107890645615192-00001</td>
-          <td><strong>Pan Pa Mi (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">4</span></td>
-          <td>2025-12-26</td>
-          <td class="center">193</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">4904485188796416-00016</td>
-          <td><strong>Animal Cocina Eventos (16)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Adriana Cadavid</td>
           <td><span class="badge badge-plan">BASICO</span></td>
-          <td class="right" data-mrr="37.0">$37</td>
-          <td></td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">1982994904223618-00005</td>
-          <td><strong>Alparke - Locales (5)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Adriana Cadavid</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="39.0">$39</td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-28">9</span></td>
-          <td>2025-10-05</td>
-          <td class="center">275</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">1982994904223618-00006</td>
-          <td><strong>Alparke - Islas Del Sol (6)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Adriana Cadavid</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="28.0">$28</td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td>2025-10-12</td>
-          <td class="center">268</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Fabian Monroy">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">1776788517395390-00001</td>
-          <td><strong>PERENDENGUE (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fabian Monroy</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
-          <td>🇲🇽 México</td>
-          <td class="mono">4524615785381888-00001</td>
-          <td><strong>Zumitos (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jony Garcia</td>
-          <td><span class="badge badge-plan">BASICO</span></td>
-          <td class="right" data-mrr="26.0">$26</td>
+          <td class="right" data-mrr="62.0">$62</td>
           <td>Facturando</td>
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-09-30</td>
-          <td class="center">1011</td>
+          <td class="center">1012</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">4860245918351360-00001</td>
+          <td><strong>Café Edudown (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Rafael Garcia</td>
+          <td><span class="badge badge-plan">PRO</span></td>
+          <td class="right" data-mrr="129.0">$129</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-02-28</td>
+          <td class="center">1226</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6729623078567936-00003</td>
+          <td><strong>La Fiambreria Factoria (3)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Rafael Garcia</td>
+          <td><span class="badge badge-plan">FIJO</span></td>
+          <td class="right" data-mrr="158.0">$158</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2024-08-28</td>
+          <td class="center">679</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Herreros">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6297571976937472-00001</td>
+          <td><strong>Sersayaan Alimentos Sin Gluten (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Fernanda Herreros</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="112.0">$112</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Neyla Morales">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">1754268826355250-00001</td>
+          <td><strong>CEVICHERIA LA NEGRA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Neyla Morales</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="47.0">$47</td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-04-20</td>
+          <td class="center">444</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">5870728975220736-00001</td>
+          <td><strong>Do�a Tere con Sabor (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Maria Martinez</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="86.0">$86</td>
+          <td>Abandonado pero se deja para Reportes</td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td></td>
+          <td class="center"></td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Fernanda Rossel">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">1828517982341548-00001</td>
+          <td><strong>R-LAB (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Fernanda Rossel</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">5</span></td>
+          <td></td>
+          <td class="center"></td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5673373801250816-00001</td>
+          <td><strong>Cafe Armonico (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="38.0">$38</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td></td>
+          <td class="center"></td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5118486199926784-00001</td>
+          <td><strong>Plazoleta Yosel Food And Drinks (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="63.0">$63</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-01-31</td>
+          <td class="center">1254</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">6614396784738304-00001</td>
+          <td><strong>Restaurante Edelweiss (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="34.0">$34</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5710931256147968-00001</td>
+          <td><strong>Restaurante Passion (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="22.0">$22</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2022-11-30</td>
+          <td class="center">1316</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">1541381385244041-00001</td>
+          <td><strong>Imperium Girardot (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2026-02-28</td>
+          <td class="center">130</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Ricardo Robayo">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">1659356734728272-00001</td>
+          <td><strong>Restaurante nueva villa peruana (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Ricardo Robayo</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="36.0">$36</td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-07-25</td>
+          <td class="center">348</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
+          <td>🇲🇽 México</td>
+          <td class="mono">6514453423194112-00001</td>
+          <td><strong>La Autentica (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Alejandro Nolasco</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="51.0">$51</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-12-31</td>
+          <td class="center">920</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Jaqueline Lobaco">
+          <td>🇲🇽 México</td>
+          <td class="mono">4635047162413056-00001</td>
+          <td><strong>Eugenio El Del Caminito (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jaqueline Lobaco</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="40.0">$40</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2024-01-31</td>
+          <td class="center">889</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
     </table>
@@ -581,7 +524,7 @@
           <td>49</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
@@ -595,7 +538,7 @@
           <td>49</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-05-31</td>
-          <td class="center">1498</td>
+          <td class="center">1499</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
@@ -609,7 +552,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-01-07</td>
-          <td class="center">546</td>
+          <td class="center">547</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
@@ -623,7 +566,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-01-31</td>
-          <td class="center">888</td>
+          <td class="center">889</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
@@ -637,7 +580,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-11-21</td>
-          <td class="center">593</td>
+          <td class="center">594</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
@@ -651,7 +594,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-12-01</td>
-          <td class="center">218</td>
+          <td class="center">219</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
@@ -679,7 +622,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-09-30</td>
-          <td class="center">1011</td>
+          <td class="center">1012</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
@@ -693,7 +636,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-11-30</td>
-          <td class="center">1315</td>
+          <td class="center">1316</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Sin KAM">
@@ -721,7 +664,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-05-10</td>
-          <td class="center">423</td>
+          <td class="center">424</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
@@ -749,7 +692,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-12-12</td>
-          <td class="center">207</td>
+          <td class="center">208</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
@@ -763,7 +706,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-12-12</td>
-          <td class="center">207</td>
+          <td class="center">208</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Juan Carlos Munoz">
@@ -791,7 +734,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-03-04</td>
-          <td class="center">490</td>
+          <td class="center">491</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Jaqueline Lobaco">
@@ -805,7 +748,35 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-07-31</td>
-          <td class="center">1437</td>
+          <td class="center">1438</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
+          <td>🇲🇽 México</td>
+          <td class="mono">6514453423194112-00001</td>
+          <td><strong>La Autentica (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Alejandro Nolasco</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="51.0">$51</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-12-31</td>
+          <td class="center">920</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
+          <td>🇲🇽 México</td>
+          <td class="mono">4524615785381888-00001</td>
+          <td><strong>Zumitos (1)</strong></td>
+          <td>Jony Garcia</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="26.0">$26</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="México" data-kam="Alejandro Nolasco">
@@ -819,21 +790,21 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2026-01-25</td>
-          <td class="center">163</td>
+          <td class="center">164</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Jony Garcia">
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="México" data-kam="Jaqueline Lobaco">
           <td>🇲🇽 México</td>
-          <td class="mono">4524615785381888-00001</td>
-          <td><strong>Zumitos (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jony Garcia</td>
-          <td><span class="badge badge-plan">BASICO</span></td>
-          <td class="right" data-mrr="26.0">$26</td>
+          <td class="mono">4635047162413056-00001</td>
+          <td><strong>Eugenio El Del Caminito (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jaqueline Lobaco</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="40.0">$40</td>
           <td>Facturando</td>
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2023-09-30</td>
-          <td class="center">1011</td>
+          <td>2024-01-31</td>
+          <td class="center">889</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
@@ -847,7 +818,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-03-25</td>
-          <td class="center">469</td>
+          <td class="center">470</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Luciano Elizondo">
@@ -861,7 +832,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-08-31</td>
-          <td class="center">1041</td>
+          <td class="center">1042</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
@@ -875,7 +846,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-05-22</td>
-          <td class="center">411</td>
+          <td class="center">412</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
@@ -889,7 +860,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-07-26</td>
-          <td class="center">711</td>
+          <td class="center">712</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
@@ -917,7 +888,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-07-01</td>
-          <td class="center">736</td>
+          <td class="center">737</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
@@ -931,7 +902,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-07-31</td>
-          <td class="center">1072</td>
+          <td class="center">1073</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
@@ -945,7 +916,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-09-30</td>
-          <td class="center">1011</td>
+          <td class="center">1012</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
@@ -959,7 +930,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-11-28</td>
-          <td class="center">586</td>
+          <td class="center">587</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
@@ -973,7 +944,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-10-31</td>
-          <td class="center">249</td>
+          <td class="center">250</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
@@ -987,7 +958,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-10-24</td>
-          <td class="center">621</td>
+          <td class="center">622</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
@@ -1015,7 +986,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-12-23</td>
-          <td class="center">561</td>
+          <td class="center">562</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
@@ -1057,7 +1028,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-09-30</td>
-          <td class="center">645</td>
+          <td class="center">646</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
@@ -1071,7 +1042,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-09-13</td>
-          <td class="center">662</td>
+          <td class="center">663</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
@@ -1085,7 +1056,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-02-19</td>
-          <td class="center">503</td>
+          <td class="center">504</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
@@ -1113,7 +1084,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-05-31</td>
-          <td class="center">1498</td>
+          <td class="center">1499</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
@@ -1130,6 +1101,34 @@
           <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Maria Martinez">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">4687919982968832-00001</td>
+          <td><strong>Club La Peninsula Nuevo (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Maria Martinez</td>
+          <td><span class="badge badge-plan">FIJO</span></td>
+          <td class="right" data-mrr="55.0">$55</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td></td>
+          <td class="center"></td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6009672884944896-00002</td>
+          <td><strong>El Templo del Smash Vitacura (2)</strong></td>
+          <td>Jose Antonio Silva</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="132.0">$132</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2025-10-31</td>
+          <td class="center">250</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
 <tr data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
           <td>🇨🇱 Chile</td>
           <td class="mono">4840154478542848-00001</td>
@@ -1139,57 +1138,15 @@
           <td class="right" data-mrr="283.0">$283</td>
           <td>Facturando</td>
           <td>40</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-22">15</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-22">16</span></td>
           <td>2024-11-13</td>
-          <td class="center">601</td>
+          <td class="center">602</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Herreros">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6353502865719296-00001</td>
-          <td><strong>TRESSETENTA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fernanda Herreros</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="64.0">$64</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">4652178633129984-00001</td>
-          <td><strong>Cerveceria CODA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="86.0">$86</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2022-11-30</td>
-          <td class="center">1315</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">6009672884944896-00002</td>
-          <td><strong>El Templo del Smash Vitacura (2)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="132.0">$132</td>
-          <td>Facturando</td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2025-10-31</td>
-          <td class="center">249</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
+<tr data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
           <td>🇨🇱 Chile</td>
           <td class="mono">5211164757458944-00001</td>
-          <td><strong>LOCOS POR EL POLLO (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>LOCOS POR EL POLLO (1)</strong></td>
           <td>Fernanda Rossel</td>
           <td><span class="badge badge-plan">AVANZADO</span></td>
           <td class="right" data-mrr="84.0">$84</td>
@@ -1197,13 +1154,27 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-11-30</td>
-          <td class="center">1315</td>
+          <td class="center">1316</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Neyla Morales">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">5338953521692672-00001</td>
+          <td><strong>La Cocina de Renato (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Neyla Morales</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="62.0">$62</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="Chile" data-kam="Fernanda Rossel">
           <td>🇨🇱 Chile</td>
           <td class="mono">6693739748786176-00005</td>
-          <td><strong>La Foca Tobalaba (5)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>La Foca Tobalaba (5)</strong></td>
           <td>Fernanda Rossel</td>
           <td><span class="badge badge-plan">FIJO</span></td>
           <td class="right" data-mrr="72.0">$72</td>
@@ -1214,24 +1185,24 @@
           <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
+<tr data-plat="legacy" data-pais="Chile" data-kam="Fernanda Herreros">
           <td>🇨🇱 Chile</td>
-          <td class="mono">6475539405733888-00001</td>
-          <td><strong>MAMAS & TAPAS (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="347.0">$347</td>
+          <td class="mono">6353502865719296-00001</td>
+          <td><strong>TRESSETENTA (1)</strong></td>
+          <td>Fernanda Herreros</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="64.0">$64</td>
           <td>Facturando</td>
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td>2023-04-30</td>
-          <td class="center">1164</td>
+          <td></td>
+          <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
+<tr data-plat="legacy" data-pais="Chile" data-kam="Katherine Boscan">
           <td>🇨🇱 Chile</td>
           <td class="mono">5810352961093632-00001</td>
-          <td><strong>Volcano (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Volcano (1)</strong></td>
           <td>Katherine Boscan</td>
           <td><span class="badge badge-plan">CORPORATIVO</span></td>
           <td class="right" data-mrr="118.0">$118</td>
@@ -1242,10 +1213,10 @@
           <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Neyla Morales">
+<tr data-plat="legacy" data-pais="Chile" data-kam="Neyla Morales">
           <td>🇨🇱 Chile</td>
           <td class="mono">5342135458725888-00001</td>
-          <td><strong>Wanted Burger - Antofagasta (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Wanted Burger - Antofagasta (1)</strong></td>
           <td>Neyla Morales</td>
           <td><span class="badge badge-plan">AVANZADO</span></td>
           <td class="right" data-mrr="92.0">$92</td>
@@ -1254,6 +1225,76 @@
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td></td>
           <td class="center"></td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">4860245918351360-00001</td>
+          <td><strong>Café Edudown (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Rafael Garcia</td>
+          <td><span class="badge badge-plan">PRO</span></td>
+          <td class="right" data-mrr="129.0">$129</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-02-28</td>
+          <td class="center">1226</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">4652178633129984-00001</td>
+          <td><strong>Cerveceria CODA (1)</strong></td>
+          <td>Jose Antonio Silva</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="86.0">$86</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2022-11-30</td>
+          <td class="center">1316</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Rafael Garcia">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6729623078567936-00003</td>
+          <td><strong>La Fiambreria Factoria (3)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Rafael Garcia</td>
+          <td><span class="badge badge-plan">FIJO</span></td>
+          <td class="right" data-mrr="158.0">$158</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2024-08-28</td>
+          <td class="center">679</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="Chile" data-kam="Jose Antonio Silva">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6475539405733888-00001</td>
+          <td><strong>MAMAS & TAPAS (1)</strong></td>
+          <td>Jose Antonio Silva</td>
+          <td><span class="badge badge-plan">CORPORATIVO</span></td>
+          <td class="right" data-mrr="347.0">$347</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-04-30</td>
+          <td class="center">1165</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Chile" data-kam="Fernanda Herreros">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">6297571976937472-00001</td>
+          <td><strong>Sersayaan Alimentos Sin Gluten (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Fernanda Herreros</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="112.0">$112</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1267,7 +1308,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-03-31</td>
-          <td class="center">463</td>
+          <td class="center">464</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1281,7 +1322,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-12-31</td>
-          <td class="center">919</td>
+          <td class="center">920</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1295,7 +1336,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-09-07</td>
-          <td class="center">303</td>
+          <td class="center">304</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
@@ -1309,7 +1350,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-03-31</td>
-          <td class="center">1194</td>
+          <td class="center">1195</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
@@ -1379,7 +1420,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-04-09</td>
-          <td class="center">454</td>
+          <td class="center">455</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
@@ -1393,7 +1434,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-10-30</td>
-          <td class="center">250</td>
+          <td class="center">251</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Catalina Lopez">
@@ -1407,7 +1448,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-12-31</td>
-          <td class="center">553</td>
+          <td class="center">554</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
@@ -1421,7 +1462,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-10-10</td>
-          <td class="center">270</td>
+          <td class="center">271</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Sin KAM">
@@ -1449,7 +1490,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-08-31</td>
-          <td class="center">1406</td>
+          <td class="center">1407</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1477,21 +1518,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-07-31</td>
-          <td class="center">1072</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr data-plat="legacy" data-pais="Colombia" data-kam="Juan David Parra Gallego">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">5017453827588096-00003</td>
-          <td><strong>El Trigal Rejanero (3)</strong></td>
-          <td>Juan David Parra Gallego</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
+          <td class="center">1073</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1505,7 +1532,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2026-02-02</td>
-          <td class="center">155</td>
+          <td class="center">156</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1519,7 +1546,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-11-13</td>
-          <td class="center">601</td>
+          <td class="center">602</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1533,7 +1560,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-06-30</td>
-          <td class="center">1103</td>
+          <td class="center">1104</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1547,7 +1574,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-03-24</td>
-          <td class="center">470</td>
+          <td class="center">471</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1561,7 +1588,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-07-31</td>
-          <td class="center">1072</td>
+          <td class="center">1073</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1575,7 +1602,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-02-21</td>
-          <td class="center">501</td>
+          <td class="center">502</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1589,7 +1616,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
@@ -1603,7 +1630,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2023-09-30</td>
-          <td class="center">1011</td>
+          <td class="center">1012</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1631,7 +1658,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-11-26</td>
-          <td class="center">588</td>
+          <td class="center">589</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Sin KAM">
@@ -1687,7 +1714,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-07-31</td>
-          <td class="center">341</td>
+          <td class="center">342</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1701,7 +1728,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-02-27</td>
-          <td class="center">495</td>
+          <td class="center">496</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1715,7 +1742,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-06-11</td>
-          <td class="center">391</td>
+          <td class="center">392</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1729,7 +1756,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-07-02</td>
-          <td class="center">370</td>
+          <td class="center">371</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Angelica Chavez">
@@ -1771,7 +1798,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1785,7 +1812,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-07-31</td>
-          <td class="center">1437</td>
+          <td class="center">1438</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
@@ -1813,7 +1840,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-10-03</td>
-          <td class="center">642</td>
+          <td class="center">643</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Yurani Torres">
@@ -1827,7 +1854,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-06-30</td>
-          <td class="center">1468</td>
+          <td class="center">1469</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1855,7 +1882,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-03-13</td>
-          <td class="center">481</td>
+          <td class="center">482</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1897,7 +1924,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-03-31</td>
-          <td class="center">1559</td>
+          <td class="center">1560</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Naty Cardona">
@@ -1925,7 +1952,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-01-31</td>
-          <td class="center">888</td>
+          <td class="center">889</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Naty Cardona">
@@ -1953,7 +1980,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-06-30</td>
-          <td class="center">1468</td>
+          <td class="center">1469</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1967,7 +1994,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-07-30</td>
-          <td class="center">342</td>
+          <td class="center">343</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -1995,7 +2022,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-08-26</td>
-          <td class="center">315</td>
+          <td class="center">316</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -2009,7 +2036,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-09-04</td>
-          <td class="center">306</td>
+          <td class="center">307</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Luciano Elizondo">
@@ -2023,7 +2050,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-07-31</td>
-          <td class="center">1437</td>
+          <td class="center">1438</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Ricardo Robayo">
@@ -2037,7 +2064,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-06-07</td>
-          <td class="center">395</td>
+          <td class="center">396</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
@@ -2051,13 +2078,13 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-07-01</td>
-          <td class="center">371</td>
+          <td class="center">372</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
+<tr data-plat="legacy" data-pais="Colombia" data-kam="Adriana Cadavid">
           <td>🇨🇴 Colombia</td>
           <td class="mono">4904485188796416-00016</td>
-          <td><strong>Animal Cocina Eventos (16)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Animal Cocina Eventos (16)</strong></td>
           <td>Adriana Cadavid</td>
           <td><span class="badge badge-plan">BASICO</span></td>
           <td class="right" data-mrr="37.0">$37</td>
@@ -2068,18 +2095,60 @@
           <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
-<tr data-plat="legacy" data-pais="Argentina" data-kam="Sin KAM">
-          <td>🇦🇷 Argentina</td>
-          <td class="mono">5650311720337408-00001</td>
-          <td><strong>CNSDKPAR (1)</strong></td>
-          <td>Sin KAM</td>
-          <td><span class="badge badge-plan"></span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5673373801250816-00001</td>
+          <td><strong>Cafe Armonico (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="38.0">$38</td>
+          <td>Facturando</td>
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td></td>
           <td class="center"></td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5118486199926784-00001</td>
+          <td><strong>Plazoleta Yosel Food And Drinks (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="63.0">$63</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-01-31</td>
+          <td class="center">1254</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">6614396784738304-00001</td>
+          <td><strong>Restaurante Edelweiss (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="34.0">$34</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2023-09-30</td>
+          <td class="center">1012</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="legacy" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">5710931256147968-00001</td>
+          <td><strong>Restaurante Passion (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="22.0">$22</td>
+          <td>Facturando</td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td>2022-11-30</td>
+          <td class="center">1316</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Argentina" data-kam="Camila Agüero">
@@ -2135,7 +2204,21 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2022-08-31</td>
-          <td class="center">1406</td>
+          <td class="center">1407</td>
+          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
+        </tr>
+<tr data-plat="legacy" data-pais="Argentina" data-kam="Camila Agüero">
+          <td>🇦🇷 Argentina</td>
+          <td class="mono">6708591998664704-00013</td>
+          <td><strong>Sushiworld - San Francisco (13)</strong></td>
+          <td>Camila Agüero</td>
+          <td><span class="badge badge-plan">CORPORATIVO</span></td>
+          <td class="right" data-mrr="29.0">$29</td>
+          <td></td>
+          <td>40</td>
+          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
+          <td></td>
+          <td class="center"></td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Argentina" data-kam="Sin KAM">
@@ -2191,21 +2274,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2025-04-30</td>
-          <td class="center">433</td>
-          <td class="center"><span class="badge badge-legacy">Legacy</span></td>
-        </tr>
-<tr data-plat="legacy" data-pais="Argentina" data-kam="Camila Agüero">
-          <td>🇦🇷 Argentina</td>
-          <td class="mono">6708591998664704-00013</td>
-          <td><strong>Sushiworld - San Francisco (13)</strong></td>
-          <td>Camila Agüero</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="29.0">$29</td>
-          <td></td>
-          <td>40</td>
-          <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
-          <td></td>
-          <td class="center"></td>
+          <td class="center">434</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="legacy" data-pais="Argentina" data-kam="Camila Agüero">
@@ -2219,7 +2288,7 @@
           <td>40</td>
           <td class="center"><span style="color:#9CA3AF;font-style:italic" title="Local legacy de producción: sus ventas no están en BigQuery (order_summary), el dato real vive en el backend legacy. No se puede calcular desde analytics.">N/D · legacy</span></td>
           <td>2024-05-31</td>
-          <td class="center">767</td>
+          <td class="center">768</td>
           <td class="center"><span class="badge badge-legacy">Legacy</span></td>
         </tr>
 <tr data-plat="new" data-pais="Argentina" data-kam="Camila Agüero">
@@ -2231,9 +2300,9 @@
           <td class="right" data-mrr="-1"></td>
           <td>Abandonado pero se deja para Reportes</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">5</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">6</span></td>
           <td>2024-02-29</td>
-          <td class="center">859</td>
+          <td class="center">860</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
@@ -2245,23 +2314,23 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
+<tr data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
           <td>🇨🇱 Chile</td>
           <td class="mono">1995636757527223-00018</td>
-          <td><strong>ACHOCLONADOS - UDLA - LA FLORIDA (18)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>ACHOCLONADOS - UDLA - LA FLORIDA (18)</strong></td>
           <td>María Fernanda Soto</td>
           <td><span class="badge badge-plan">FIJO</span></td>
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="Neyla Morales">
@@ -2273,35 +2342,49 @@
           <td class="right" data-mrr="78.0">$78</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
           <td>2025-07-30</td>
-          <td class="center">342</td>
+          <td class="center">343</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr data-plat="new" data-pais="Chile" data-kam="Rafael Garcia">
+<tr data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
           <td>🇨🇱 Chile</td>
-          <td class="mono">4957477716492288-00001</td>
-          <td><strong>HC Spa (1)</strong></td>
-          <td>Rafael Garcia</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="199.0">$199</td>
+          <td class="mono">4751717633359872-00002</td>
+          <td><strong>EL REY (2)</strong></td>
+          <td>Maria Martinez</td>
+          <td><span class="badge badge-plan">CORPORATIVO</span></td>
+          <td class="right" data-mrr="171.0">$171</td>
           <td>Abandonado pero se deja para Reportes</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-29">8</span></td>
-          <td>2025-03-18</td>
-          <td class="center">476</td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
+          <td>2025-04-30</td>
+          <td class="center">434</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Sin KAM">
+<tr data-plat="new" data-pais="Chile" data-kam="Katherine Boscan">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">4987075119677440-00007</td>
+          <td><strong>Lady Focaccia Casa Costanera (7)</strong></td>
+          <td>Katherine Boscan</td>
+          <td><span class="badge badge-plan">CORPORATIVO</span></td>
+          <td class="right" data-mrr="76.0">$76</td>
+          <td>Abandonado pero se deja para Reportes</td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-29">9</span></td>
+          <td>2025-01-31</td>
+          <td class="center">523</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr data-plat="new" data-pais="Chile" data-kam="Sin KAM">
           <td>🇨🇱 Chile</td>
           <td class="mono">1493434486657908-00202</td>
-          <td><strong>Livingston Bandejeros - Claro Arena (202)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Livingston Bandejeros - Claro Arena (202)</strong></td>
           <td>Sin KAM</td>
           <td><span class="badge badge-plan"></span></td>
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-06-06">31</span></td>
+          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-06-06">32</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2315,7 +2398,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-01">6</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-07-01">7</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2329,7 +2412,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">12</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">13</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2343,9 +2426,9 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">12</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">13</span></td>
           <td>2026-02-28</td>
-          <td class="center">129</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
@@ -2357,23 +2440,9 @@
           <td class="right" data-mrr="60.0">$60</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
           <td>2025-09-10</td>
-          <td class="center">300</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1716917841493877-00001</td>
-          <td><strong>Talca country club restorant (1)</strong></td>
-          <td>Maria Martinez</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="78.0">$78</td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
-          <td>2025-08-31</td>
-          <td class="center">310</td>
+          <td class="center">301</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
@@ -2385,121 +2454,93 @@
           <td class="right" data-mrr="45.0">$45</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">5</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">6</span></td>
           <td>2026-01-31</td>
-          <td class="center">157</td>
+          <td class="center">158</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Neyla Morales">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">1754268826355250-00001</td>
+          <td><strong>CEVICHERIA LA NEGRA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Neyla Morales</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="47.0">$47</td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-04-20</td>
+          <td class="center">444</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Maria Martinez">
           <td>🇨🇱 Chile</td>
-          <td class="mono">4751717633359872-00002</td>
-          <td><strong>EL REY (2)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td class="mono">5870728975220736-00001</td>
+          <td><strong>Do�a Tere con Sabor (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
           <td>Maria Martinez</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="171.0">$171</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="86.0">$86</td>
           <td>Abandonado pero se deja para Reportes</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
-          <td>2025-04-30</td>
-          <td class="center">433</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td></td>
+          <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr data-plat="new" data-pais="Chile" data-kam="Katherine Boscan">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">5019480794857472-00001</td>
-          <td><strong>Eventos Club Providencia (1)</strong></td>
-          <td>Katherine Boscan</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="219.0">$219</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">4</span></td>
-          <td>2023-02-28</td>
-          <td class="center">1225</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Sin KAM">
+<tr data-plat="new" data-pais="Chile" data-kam="Sin KAM">
           <td>🇨🇱 Chile</td>
           <td class="mono">1493434486657908-00004</td>
-          <td><strong>Fouilloux Hotdog - Claro Arena (4)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Fouilloux Hotdog - Claro Arena (4)</strong></td>
           <td>Sin KAM</td>
           <td><span class="badge badge-plan"></span></td>
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
+<tr data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
           <td>🇨🇱 Chile</td>
           <td class="mono">5732074762141696-00001</td>
-          <td><strong>KAMANGA (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>KAMANGA (1)</strong></td>
           <td>Jose Antonio Silva</td>
           <td><span class="badge badge-plan">AVANZADO</span></td>
           <td class="right" data-mrr="176.0">$176</td>
           <td>Abandonado pero se deja para Reportes</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td>2024-12-28</td>
-          <td class="center">556</td>
+          <td class="center">557</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Katherine Boscan">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">4987075119677440-00007</td>
-          <td><strong>Lady Focaccia Casa Costanera (7)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Katherine Boscan</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="76.0">$76</td>
-          <td>Abandonado pero se deja para Reportes</td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-29">8</span></td>
-          <td>2025-01-31</td>
-          <td class="center">522</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
+<tr data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
           <td>🇨🇱 Chile</td>
           <td class="mono">6257435044610048-00001</td>
-          <td><strong>Living Club Ovalle (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Living Club Ovalle (1)</strong></td>
           <td>Jose Antonio Silva</td>
           <td><span class="badge badge-plan">AVANZADO</span></td>
           <td class="right" data-mrr="138.0">$138</td>
           <td>Abandonado pero se deja para Reportes</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td>2024-03-31</td>
-          <td class="center">828</td>
+          <td class="center">829</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Fernanda Herreros">
+<tr data-plat="new" data-pais="Chile" data-kam="Fernanda Herreros">
           <td>🇨🇱 Chile</td>
           <td class="mono">5528444315238400-00001</td>
-          <td><strong>OVO DISCOTEQUE (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>OVO DISCOTEQUE (1)</strong></td>
           <td>Fernanda Herreros</td>
           <td><span class="badge badge-plan">CORPORATIVO</span></td>
           <td class="right" data-mrr="195.0">$195</td>
           <td>Facturando</td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td>2023-12-31</td>
-          <td class="center">919</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
-          <td>🇨🇱 Chile</td>
-          <td class="mono">1107890645615192-00001</td>
-          <td><strong>Pan Pa Mi (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Jose Antonio Silva</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">4</span></td>
-          <td>2025-12-26</td>
-          <td class="center">193</td>
+          <td class="center">920</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="Jose Antonio Silva">
@@ -2511,9 +2552,23 @@
           <td class="right" data-mrr="169.0">$169</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">4</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">5</span></td>
           <td>2025-10-01</td>
-          <td class="center">279</td>
+          <td class="center">280</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Chile" data-kam="Fernanda Rossel">
+          <td>🇨🇱 Chile</td>
+          <td class="mono">1828517982341548-00001</td>
+          <td><strong>R-LAB (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Fernanda Rossel</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">5</span></td>
+          <td></td>
+          <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Chile" data-kam="María Fernanda Soto">
@@ -2525,37 +2580,51 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-05-06">62</span></td>
+          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-05-06">63</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Argentina" data-kam="Sin KAM">
+          <td>🇦🇷 Argentina</td>
+          <td class="mono">1782491467717625-00001</td>
+          <td><strong>Helader�a  Del Parque- Buffet (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Sin KAM</td>
+          <td><span class="badge badge-plan"></span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-07-01">7</span></td>
+          <td></td>
+          <td class="center"></td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Argentina" data-kam="Camila Agüero">
+          <td>🇦🇷 Argentina</td>
+          <td class="mono">1180641282276296-00001</td>
+          <td><strong>Eleven  Club (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Camila Agüero</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-07-17</td>
+          <td class="center">356</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
           <td>🇨🇴 Colombia</td>
           <td class="mono">1982994904223618-00005</td>
-          <td><strong>Alparke - Locales (5)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Alparke - Locales (5)</strong></td>
           <td>Adriana Cadavid</td>
           <td><span class="badge badge-plan">CORPORATIVO</span></td>
           <td class="right" data-mrr="39.0">$39</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-28">9</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-28">10</span></td>
           <td>2025-10-05</td>
-          <td class="center">275</td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">1982994904223618-00003</td>
-          <td><strong>Alparke - Urban (3)</strong></td>
-          <td>Adriana Cadavid</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="8.0">$8</td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
-          <td>2025-10-10</td>
-          <td class="center">270</td>
+          <td class="center">276</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Colombia" data-kam="Andres Prada">
@@ -2567,21 +2636,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">12</span></td>
-          <td></td>
-          <td class="center"></td>
-          <td class="center"><span class="badge badge-new">NEW</span></td>
-        </tr>
-<tr data-plat="new" data-pais="Colombia" data-kam="Jenthely Morales">
-          <td>🇨🇴 Colombia</td>
-          <td class="mono">1975960824775736-00100</td>
-          <td><strong>NAN KING BASE (100)</strong></td>
-          <td>Jenthely Morales</td>
-          <td><span class="badge badge-plan">CORPORATIVO</span></td>
-          <td class="right" data-mrr="-1"></td>
-          <td></td>
-          <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-29">8</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-25">13</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2595,9 +2650,9 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">4</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-03">5</span></td>
           <td>2026-02-23</td>
-          <td class="center">134</td>
+          <td class="center">135</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Colombia" data-kam="Natalia Gutierrez">
@@ -2609,7 +2664,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2623,7 +2678,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">7</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-06-30">8</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2637,7 +2692,7 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">5</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-02">6</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
@@ -2651,23 +2706,37 @@
           <td class="right" data-mrr="95.0">$95</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-05-18">50</span></td>
+          <td class="center"><span class="dsa" style="color:#DC2626;font-weight:700" title="Última venta (order_summary): 2026-05-18">51</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
+<tr data-plat="new" data-pais="Colombia" data-kam="Adriana Cadavid">
           <td>🇨🇴 Colombia</td>
           <td class="mono">1982994904223618-00006</td>
-          <td><strong>Alparke - Islas Del Sol (6)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td><strong>Alparke - Islas Del Sol (6)</strong></td>
           <td>Adriana Cadavid</td>
           <td><span class="badge badge-plan">CORPORATIVO</span></td>
           <td class="right" data-mrr="28.0">$28</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">4</span></td>
           <td>2025-10-12</td>
-          <td class="center">268</td>
+          <td class="center">269</td>
+          <td class="center"><span class="badge badge-new">NEW</span></td>
+        </tr>
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Jenthely Morales">
+          <td>🇨🇴 Colombia</td>
+          <td class="mono">1541381385244041-00001</td>
+          <td><strong>Imperium Girardot (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Jenthely Morales</td>
+          <td><span class="badge badge-plan">AVANZADO</span></td>
+          <td class="right" data-mrr="-1"></td>
+          <td></td>
+          <td>BILLING</td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2026-02-28</td>
+          <td class="center">130</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
 <tr data-plat="new" data-pais="Colombia" data-kam="Sin KAM">
@@ -2679,23 +2748,23 @@
           <td class="right" data-mrr="-1"></td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-01">6</span></td>
+          <td class="center"><span class="dsa" style="color:#EA580C;font-weight:700" title="Última venta (order_summary): 2026-07-01">7</span></td>
           <td></td>
           <td class="center"></td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
-<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Fabian Monroy">
+<tr style="background:#E8F5E9" data-plat="new" data-pais="Colombia" data-kam="Ricardo Robayo">
           <td>🇨🇴 Colombia</td>
-          <td class="mono">1776788517395390-00001</td>
-          <td><strong>PERENDENGUE (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
-          <td>Fabian Monroy</td>
-          <td><span class="badge badge-plan">AVANZADO</span></td>
-          <td class="right" data-mrr="-1"></td>
+          <td class="mono">1659356734728272-00001</td>
+          <td><strong>Restaurante nueva villa peruana (1)</strong><span class="badge badge-nuevo">NUEVO</span></td>
+          <td>Ricardo Robayo</td>
+          <td><span class="badge badge-plan">BASICO</span></td>
+          <td class="right" data-mrr="36.0">$36</td>
           <td></td>
           <td>BILLING</td>
-          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-04">3</span></td>
-          <td></td>
-          <td class="center"></td>
+          <td class="center"><span class="dsa" style="color:#16A34A;font-weight:700" title="Última venta (order_summary): 2026-07-05">3</span></td>
+          <td>2025-07-25</td>
+          <td class="center">348</td>
           <td class="center"><span class="badge badge-new">NEW</span></td>
         </tr>
     </table>
@@ -2703,12 +2772,12 @@
 </div>
 
 <div class="footer">
-  <span>Actualizado: 07/07/2026 10:15 · Próximo: mañana 09:00 AM</span>
+  <span>Actualizado: 08/07/2026 09:02 · Próximo: mañana 09:00 AM</span>
   <a href="https://toteat.com">toteat.com</a>
 </div>
 
 <script>
-const DATA = [{"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "burgers & fries forever cumbres (4) 4746676787609600-00004 jony garcia méxico basico"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "cafe ole internacional (1) 5896076168790016-00001 jony garcia méxico pro"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "central café (1) 5835806173954048-00001 alejandro nolasco méxico corporativo"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "el misterio (1) 4565979236532224-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "hidroponia (1) 4612758028550144-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "oishi gohan - town center (6) 5098445754466304-00006 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "only chicken (1) 6258500058087424-00001 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "pippo´s (1) 6287897848315904-00001 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "pollos maya (1) 4973032436924416-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "proyecto chilaquil (1) 6264165775441920-00001 sin kam méxico "}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo pabellón cuauhtémoc (14) 5968717093666816-00014 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo portal centro (5) 5968717093666816-00005 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo price shoes ecatepec (26) 5968717093666816-00026 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo price shoes vallejo (25) 5968717093666816-00025 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Juan Carlos Munoz", "plat": "legacy", "nuevo": false, "early": false, "text": "tacos don pedro ii (2) 6361874152816640-00002 juan carlos munoz méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "tequeguayi cedis (1) 5499332296310784-00001 alejandro nolasco méxico basico"}, {"pais": "México", "kam": "Jaqueline Lobaco", "plat": "legacy", "nuevo": false, "early": false, "text": "cafeteria instituto peninsular (1) 5434541185171456-00001 jaqueline lobaco méxico basico"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "cafe society - up (11) 4841707293245440-00011 alejandro nolasco méxico corporativo"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": true, "early": false, "text": "zumitos (1) 4524615785381888-00001 jony garcia méxico basico"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "bar_la_virgen (1) 5042448384786432-00001 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Luciano Elizondo", "plat": "legacy", "nuevo": false, "early": false, "text": "biergarten klein (1) 6367447814897664-00001 luciano elizondo chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "cocina central t1 (2) 6735731714949120-00002 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": false, "early": false, "text": "cp heladería the crepe café (7) 6233446175735808-00007 fernanda rossel chile centroproduccion"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "café del centro (1) 4528795506180096-00001 katherine boscan chile pro"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "casa matrix 515 c.p. (14) 4899748509908992-00014 rafael garcia chile centroproduccion"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "chicken love you arauco maipu (4) 5058444897943552-00004 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "dimango mall (1) 4587229831888896-00001 rafael garcia chile avanzado"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "kukies pve (1) 5155641479528448-00001 katherine boscan chile basico"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "la ciudad nueva 14 de febrero (3) 5594087423606784-00003 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "la ciudad nueva norte (2) 5594087423606784-00002 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "lujuria de sabores (1) 5623609436143616-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "mayan bar - holanda (1) 5752240488448000-00001 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "pastelería (1) 6248862037966848-00001 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "pausa coffee shop (1) 4796267923767296-00001 rafael garcia chile fijo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "pepa’s (1) 5683229411115008-00001 neyla morales chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "pianogourmet (1) 5606138055360512-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "porfiada (1) 5981648726654976-00001 rafael garcia chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "thai express tobalaba (1) 6046138993475584-00001 maria martinez chile basico"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "tres toques la reina (1) 5260727763599360-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "aitué restobar (1) 4877187191406592-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "explorers house punta arenas (1) 4840154478542848-00001 jose antonio silva chile fijo"}, {"pais": "Chile", "kam": "Fernanda Herreros", "plat": "legacy", "nuevo": true, "early": false, "text": "tressetenta (1) 6353502865719296-00001 fernanda herreros chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": true, "early": false, "text": "cerveceria coda (1) 4652178633129984-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": true, "early": false, "text": "el templo del smash vitacura (2) 6009672884944896-00002 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": true, "early": false, "text": "locos por el pollo (1) 5211164757458944-00001 fernanda rossel chile avanzado"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": true, "early": false, "text": "la foca tobalaba (5) 6693739748786176-00005 fernanda rossel chile fijo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": true, "early": false, "text": "mamas & tapas (1) 6475539405733888-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": true, "early": false, "text": "volcano (1) 5810352961093632-00001 katherine boscan chile corporativo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "wanted burger - antofagasta (1) 5342135458725888-00001 neyla morales chile avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "almacen principal (1) 5436128039141376-00001 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "azahar institucional (4) 6444944573857792-00004 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "adriano eventos (2) 6190843668594688-00002 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "animal cocina provenza (1) 4904485188796416-00001 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "atrium food and drinks eventos (13) 5612859218984960-00013 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "azahar página (7) 6444944573857792-00007 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "bar cinco licorera coliseo live (5) 6501272741740544-00005 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "cocina coliseo medplus (1) 5466875378139136-00001 ricardo robayo colombia "}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "caffa capital tower (8) 4670915286794240-00008 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "con kafé (2) 4975815585693696-00002 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Catalina Lopez", "plat": "legacy", "nuevo": false, "early": false, "text": "cristys brownies c.c plaza del parque (2) 4803205842468864-00002 catalina lopez colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "dulcerna plaza del parque (11) 4902138748207104-00011 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "dulcerna villa carolina (4) 4902138748207104-00004 sin kam colombia "}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ecotower93 (10) 4557213587472384-00010 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "eventos café rico (1) 6424075368660992-00001 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "ecobowls cali (1) 6221279711592448-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Juan David Parra Gallego", "plat": "legacy", "nuevo": false, "early": false, "text": "el trigal rejanero (3) 5017453827588096-00003 juan david parra gallego colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia 3.5 (6) 6025113086590976-00006 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia chapinero alto (4) 6025113086590976-00004 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria calle 85 (2) 6025113086590976-00002 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria eventos (5) 6025113086590976-00005 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria quinta camacho (1) 6025113086590976-00001 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ferias y eventos (3) 4902138748207104-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "good acai andes (3) 6222802956451840-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "icy cloud (1) 6519309734117376-00001 jenthely morales colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ilatina speakeasy (4) 4789449845768192-00004 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ilatina eventos (3) 4789449845768192-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "jamondi (17) 5241168871161856-00017 sin kam colombia "}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo flora (10) 5241168871161856-00010 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo floralia (23) 5241168871161856-00023 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo kachipay (13) 5241168871161856-00013 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo la base (9) 5241168871161856-00009 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo unico (11) 5241168871161856-00011 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo vipasa (12) 5241168871161856-00012 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo la 44 (21) 5241168871161856-00021 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri bochealema 1 (22) 5241168871161856-00022 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo israel plaza (31) 5241168871161856-00031 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "la garosa villa campestre (3) 4574248372535296-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "le pork (1) 4884105810149376-00001 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "los mas perros 61 (2) 6605927855292416-00002 jenthely morales colombia basico"}, {"pais": "Colombia", "kam": "Yurani Torres", "plat": "legacy", "nuevo": false, "early": false, "text": "maclau pan y café - paseo del ángel (1) 5030016729219072-00001 yurani torres colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "nuts about you eventos (3) 4577580654788608-00003 ricardo robayo colombia basico"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "omr - zona t (2) 5259111129939968-00002 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "oakberry açaí eventos (4) 6754718777475072-00004 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "panela bistro prado (3) 4726511742746624-00003 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "pepasta (1) 6378304703299584-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Naty Cardona", "plat": "legacy", "nuevo": false, "early": false, "text": "pibo mall paraiso (1) 4999827383517184-00001 naty cardona colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "pikoniggio restaurante (1) 6389745782489088-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Naty Cardona", "plat": "legacy", "nuevo": false, "early": false, "text": "resto bar 80 (1) 5916733649715200-00001 naty cardona colombia "}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "raj burger (1) 6165729059274752-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "restaurante estadero santander (1) 5772387476176896-00001 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "smoking molly (9) 6234297399508992-00009 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "tejo la embajada eventos- (2) 4850915661840384-00002 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "tremé eventos (1) 5140790280060928-00001 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Luciano Elizondo", "plat": "legacy", "nuevo": false, "early": false, "text": "viral hub - calle 84 (1) 4539070010884096-00001 luciano elizondo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo refugio (15) 5241168871161856-00015 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "alma silvestre gastro park (3) 5047199866159104-00003 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": true, "early": false, "text": "animal cocina eventos (16) 4904485188796416-00016 adriana cadavid colombia basico"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "cnsdkpar (1) 5650311720337408-00001 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "gobdarar (9) 5548578722676736-00009 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "gontran cherrier nuñez (3) 5092533592129536-00003 camila agüero argentina pro"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "maesto dark kitchen (10) 5548578722676736-00010 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "mariscal patio cervecero (1) 6323275950718976-00001 camila agüero argentina basico"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "sushiworld base (1) 4948991627624448-00001 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "tarantino san juan (5) 5233290723983360-00005 camila agüero argentina avanzado"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "878 bar (1) 5531532947357696-00001 camila agüero argentina pro"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "rivdarar (1) 5548578722676736-00001 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "sushiworld - san francisco (13) 6708591998664704-00013 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "panda (1) 5064563451101184-00001 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "new", "nuevo": false, "early": false, "text": "pcateauy (1) 4527529447784448-00001 camila agüero argentina corporativo"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "achoclonados - inacap - valparaiso (12) 1995636757527223-00012 maría fernanda soto chile fijo"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": true, "early": false, "text": "achoclonados - udla - la florida (18) 1995636757527223-00018 maría fernanda soto chile fijo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "new", "nuevo": false, "early": false, "text": "chips corner (1) 1604885153299659-00001 neyla morales chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "new", "nuevo": false, "early": false, "text": "hc spa (1) 4957477716492288-00001 rafael garcia chile avanzado"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": true, "early": false, "text": "livingston bandejeros - claro arena (202) 1493434486657908-00202 sin kam chile "}, {"pais": "Chile", "kam": "Katherine Barrera", "plat": "new", "nuevo": false, "early": false, "text": "punta del sol (1) 1269612994280245-00001 katherine barrera chile corporativo"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "sodexo - manuka (1) 1778862594827015-00001 sin kam chile "}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo salud - p3 clinica alemana puerto varas (64) 1446023949380383-00064 maría fernanda soto chile enterprise"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo salud - sanatorio aleman - clinica mujer - concepcion (52) 1446023949380383-00052 maría fernanda soto chile enterprise"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": false, "early": false, "text": "talca country club restorant (1) 1716917841493877-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": false, "early": false, "text": "buche (1) 1752657808714298-00001 maria martinez chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": true, "early": false, "text": "el rey (2) 4751717633359872-00002 maria martinez chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "new", "nuevo": false, "early": false, "text": "eventos club providencia (1) 5019480794857472-00001 katherine boscan chile corporativo"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": true, "early": false, "text": "fouilloux hotdog - claro arena (4) 1493434486657908-00004 sin kam chile "}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": true, "early": false, "text": "kamanga (1) 5732074762141696-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "new", "nuevo": true, "early": false, "text": "lady focaccia casa costanera (7) 4987075119677440-00007 katherine boscan chile corporativo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": true, "early": false, "text": "living club ovalle (1) 6257435044610048-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Fernanda Herreros", "plat": "new", "nuevo": true, "early": false, "text": "ovo discoteque (1) 5528444315238400-00001 fernanda herreros chile corporativo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": true, "early": false, "text": "pan pa mi (1) 1107890645615192-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": false, "early": false, "text": "pizzer�a 7 hermano (1) 1324142342428247-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo corporate - teva (95) 1446023949380383-00095 maría fernanda soto chile enterprise"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": true, "early": false, "text": "alparke - locales (5) 1982994904223618-00005 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": false, "early": false, "text": "alparke - urban (3) 1982994904223618-00003 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Andres Prada", "plat": "new", "nuevo": false, "early": false, "text": "martino burgers (1) 1931391535026957-00001 andres prada colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "new", "nuevo": false, "early": false, "text": "nan king base (100) 1975960824775736-00100 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": false, "early": false, "text": "narko papas laureles (3) 1574620569647081-00003 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Natalia Gutierrez", "plat": "new", "nuevo": false, "early": false, "text": "onza (1) 1441281632798736-00001 natalia gutierrez colombia avanzado"}, {"pais": "Colombia", "kam": "Juan David Parra Gallego", "plat": "new", "nuevo": false, "early": false, "text": "onza nogal (2) 1441281632798736-00002 juan david parra gallego colombia avanzado"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "pilgryms buenavista santa marta (3) 1984728371535118-00003 sin kam colombia "}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "new", "nuevo": false, "early": false, "text": "tribal unicentro (4) 1163076264418822-00004 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": true, "early": false, "text": "alparke - islas del sol (6) 1982994904223618-00006 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "marlu panaderia (1) 1780087375682177-00001 sin kam colombia "}, {"pais": "Colombia", "kam": "Fabian Monroy", "plat": "new", "nuevo": true, "early": false, "text": "perendengue (1) 1776788517395390-00001 fabian monroy colombia avanzado"}];
+const DATA = [{"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "burgers & fries forever cumbres (4) 4746676787609600-00004 jony garcia méxico basico"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "cafe ole internacional (1) 5896076168790016-00001 jony garcia méxico pro"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "central café (1) 5835806173954048-00001 alejandro nolasco méxico corporativo"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "el misterio (1) 4565979236532224-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "hidroponia (1) 4612758028550144-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "oishi gohan - town center (6) 5098445754466304-00006 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "only chicken (1) 6258500058087424-00001 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "pippo´s (1) 6287897848315904-00001 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "pollos maya (1) 4973032436924416-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "proyecto chilaquil (1) 6264165775441920-00001 sin kam méxico "}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo pabellón cuauhtémoc (14) 5968717093666816-00014 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo portal centro (5) 5968717093666816-00005 jony garcia méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo price shoes ecatepec (26) 5968717093666816-00026 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "ta-chi dogo price shoes vallejo (25) 5968717093666816-00025 jony garcia méxico corporativo"}, {"pais": "México", "kam": "Juan Carlos Munoz", "plat": "legacy", "nuevo": false, "early": false, "text": "tacos don pedro ii (2) 6361874152816640-00002 juan carlos munoz méxico avanzado"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "tequeguayi cedis (1) 5499332296310784-00001 alejandro nolasco méxico basico"}, {"pais": "México", "kam": "Jaqueline Lobaco", "plat": "legacy", "nuevo": false, "early": false, "text": "cafeteria instituto peninsular (1) 5434541185171456-00001 jaqueline lobaco méxico basico"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": true, "early": false, "text": "la autentica (1) 6514453423194112-00001 alejandro nolasco méxico avanzado"}, {"pais": "México", "kam": "Jony Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "zumitos (1) 4524615785381888-00001 jony garcia méxico basico"}, {"pais": "México", "kam": "Alejandro Nolasco", "plat": "legacy", "nuevo": false, "early": false, "text": "cafe society - up (11) 4841707293245440-00011 alejandro nolasco méxico corporativo"}, {"pais": "México", "kam": "Jaqueline Lobaco", "plat": "legacy", "nuevo": true, "early": false, "text": "eugenio el del caminito (1) 4635047162413056-00001 jaqueline lobaco méxico avanzado"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "bar_la_virgen (1) 5042448384786432-00001 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Luciano Elizondo", "plat": "legacy", "nuevo": false, "early": false, "text": "biergarten klein (1) 6367447814897664-00001 luciano elizondo chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "cocina central t1 (2) 6735731714949120-00002 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": false, "early": false, "text": "cp heladería the crepe café (7) 6233446175735808-00007 fernanda rossel chile centroproduccion"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "café del centro (1) 4528795506180096-00001 katherine boscan chile pro"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "casa matrix 515 c.p. (14) 4899748509908992-00014 rafael garcia chile centroproduccion"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "chicken love you arauco maipu (4) 5058444897943552-00004 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "dimango mall (1) 4587229831888896-00001 rafael garcia chile avanzado"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "kukies pve (1) 5155641479528448-00001 katherine boscan chile basico"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "la ciudad nueva 14 de febrero (3) 5594087423606784-00003 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "la ciudad nueva norte (2) 5594087423606784-00002 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "lujuria de sabores (1) 5623609436143616-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "mayan bar - holanda (1) 5752240488448000-00001 rafael garcia chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "pastelería (1) 6248862037966848-00001 katherine boscan chile centroproduccion"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "pausa coffee shop (1) 4796267923767296-00001 rafael garcia chile fijo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "pepa’s (1) 5683229411115008-00001 neyla morales chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "pianogourmet (1) 5606138055360512-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": false, "early": false, "text": "porfiada (1) 5981648726654976-00001 rafael garcia chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "thai express tobalaba (1) 6046138993475584-00001 maria martinez chile basico"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "tres toques la reina (1) 5260727763599360-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": false, "early": false, "text": "aitué restobar (1) 4877187191406592-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "legacy", "nuevo": true, "early": false, "text": "club la peninsula nuevo (1) 4687919982968832-00001 maria martinez chile fijo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "el templo del smash vitacura (2) 6009672884944896-00002 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "explorers house punta arenas (1) 4840154478542848-00001 jose antonio silva chile fijo"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": false, "early": false, "text": "locos por el pollo (1) 5211164757458944-00001 fernanda rossel chile avanzado"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "la cocina de renato (1) 5338953521692672-00001 neyla morales chile basico"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "legacy", "nuevo": false, "early": false, "text": "la foca tobalaba (5) 6693739748786176-00005 fernanda rossel chile fijo"}, {"pais": "Chile", "kam": "Fernanda Herreros", "plat": "legacy", "nuevo": false, "early": false, "text": "tressetenta (1) 6353502865719296-00001 fernanda herreros chile avanzado"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "legacy", "nuevo": false, "early": false, "text": "volcano (1) 5810352961093632-00001 katherine boscan chile corporativo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "wanted burger - antofagasta (1) 5342135458725888-00001 neyla morales chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": true, "early": false, "text": "café edudown (1) 4860245918351360-00001 rafael garcia chile pro"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "cerveceria coda (1) 4652178633129984-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Rafael Garcia", "plat": "legacy", "nuevo": true, "early": false, "text": "la fiambreria factoria (3) 6729623078567936-00003 rafael garcia chile fijo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "legacy", "nuevo": false, "early": false, "text": "mamas & tapas (1) 6475539405733888-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Fernanda Herreros", "plat": "legacy", "nuevo": true, "early": false, "text": "sersayaan alimentos sin gluten (1) 6297571976937472-00001 fernanda herreros chile basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "almacen principal (1) 5436128039141376-00001 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "azahar institucional (4) 6444944573857792-00004 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "adriano eventos (2) 6190843668594688-00002 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "animal cocina provenza (1) 4904485188796416-00001 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "atrium food and drinks eventos (13) 5612859218984960-00013 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "azahar página (7) 6444944573857792-00007 ricardo robayo colombia centroproduccion"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "bar cinco licorera coliseo live (5) 6501272741740544-00005 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "cocina coliseo medplus (1) 5466875378139136-00001 ricardo robayo colombia "}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "caffa capital tower (8) 4670915286794240-00008 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "con kafé (2) 4975815585693696-00002 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Catalina Lopez", "plat": "legacy", "nuevo": false, "early": false, "text": "cristys brownies c.c plaza del parque (2) 4803205842468864-00002 catalina lopez colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "dulcerna plaza del parque (11) 4902138748207104-00011 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "dulcerna villa carolina (4) 4902138748207104-00004 sin kam colombia "}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ecotower93 (10) 4557213587472384-00010 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "eventos café rico (1) 6424075368660992-00001 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "ecobowls cali (1) 6221279711592448-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia 3.5 (6) 6025113086590976-00006 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia chapinero alto (4) 6025113086590976-00004 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria calle 85 (2) 6025113086590976-00002 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria eventos (5) 6025113086590976-00005 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "famiglia pizzeria quinta camacho (1) 6025113086590976-00001 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ferias y eventos (3) 4902138748207104-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "good acai andes (3) 6222802956451840-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "icy cloud (1) 6519309734117376-00001 jenthely morales colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ilatina speakeasy (4) 4789449845768192-00004 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "ilatina eventos (3) 4789449845768192-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "jamondi (17) 5241168871161856-00017 sin kam colombia "}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo flora (10) 5241168871161856-00010 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo floralia (23) 5241168871161856-00023 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo kachipay (13) 5241168871161856-00013 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo la base (9) 5241168871161856-00009 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo unico (11) 5241168871161856-00011 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo vipasa (12) 5241168871161856-00012 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo la 44 (21) 5241168871161856-00021 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Angelica Chavez", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri bochealema 1 (22) 5241168871161856-00022 angelica chavez colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo israel plaza (31) 5241168871161856-00031 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "la garosa villa campestre (3) 4574248372535296-00003 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "le pork (1) 4884105810149376-00001 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "los mas perros 61 (2) 6605927855292416-00002 jenthely morales colombia basico"}, {"pais": "Colombia", "kam": "Yurani Torres", "plat": "legacy", "nuevo": false, "early": false, "text": "maclau pan y café - paseo del ángel (1) 5030016729219072-00001 yurani torres colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "nuts about you eventos (3) 4577580654788608-00003 ricardo robayo colombia basico"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "omr - zona t (2) 5259111129939968-00002 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "oakberry açaí eventos (4) 6754718777475072-00004 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "panela bistro prado (3) 4726511742746624-00003 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "pepasta (1) 6378304703299584-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Naty Cardona", "plat": "legacy", "nuevo": false, "early": false, "text": "pibo mall paraiso (1) 4999827383517184-00001 naty cardona colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "pikoniggio restaurante (1) 6389745782489088-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Naty Cardona", "plat": "legacy", "nuevo": false, "early": false, "text": "resto bar 80 (1) 5916733649715200-00001 naty cardona colombia "}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "raj burger (1) 6165729059274752-00001 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "restaurante estadero santander (1) 5772387476176896-00001 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "smoking molly (9) 6234297399508992-00009 ricardo robayo colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": false, "early": false, "text": "tejo la embajada eventos- (2) 4850915661840384-00002 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "tremé eventos (1) 5140790280060928-00001 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Luciano Elizondo", "plat": "legacy", "nuevo": false, "early": false, "text": "viral hub - calle 84 (1) 4539070010884096-00001 luciano elizondo colombia corporativo"}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "legacy", "nuevo": false, "early": false, "text": "kinkiri pollo refugio (15) 5241168871161856-00015 ricardo robayo colombia avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "alma silvestre gastro park (3) 5047199866159104-00003 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "legacy", "nuevo": false, "early": false, "text": "animal cocina eventos (16) 4904485188796416-00016 adriana cadavid colombia basico"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "cafe armonico (1) 5673373801250816-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "plazoleta yosel food and drinks (1) 5118486199926784-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "restaurante edelweiss (1) 6614396784738304-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "legacy", "nuevo": true, "early": false, "text": "restaurante passion (1) 5710931256147968-00001 jenthely morales colombia avanzado"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "gobdarar (9) 5548578722676736-00009 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "gontran cherrier nuñez (3) 5092533592129536-00003 camila agüero argentina pro"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "maesto dark kitchen (10) 5548578722676736-00010 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "mariscal patio cervecero (1) 6323275950718976-00001 camila agüero argentina basico"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "sushiworld - san francisco (13) 6708591998664704-00013 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "legacy", "nuevo": false, "early": false, "text": "sushiworld base (1) 4948991627624448-00001 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "tarantino san juan (5) 5233290723983360-00005 camila agüero argentina avanzado"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "878 bar (1) 5531532947357696-00001 camila agüero argentina pro"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "rivdarar (1) 5548578722676736-00001 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "legacy", "nuevo": false, "early": false, "text": "panda (1) 5064563451101184-00001 camila agüero argentina corporativo"}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "new", "nuevo": false, "early": false, "text": "pcateauy (1) 4527529447784448-00001 camila agüero argentina corporativo"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "achoclonados - inacap - valparaiso (12) 1995636757527223-00012 maría fernanda soto chile fijo"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "achoclonados - udla - la florida (18) 1995636757527223-00018 maría fernanda soto chile fijo"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "new", "nuevo": false, "early": false, "text": "chips corner (1) 1604885153299659-00001 neyla morales chile avanzado"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": false, "early": false, "text": "el rey (2) 4751717633359872-00002 maria martinez chile corporativo"}, {"pais": "Chile", "kam": "Katherine Boscan", "plat": "new", "nuevo": false, "early": false, "text": "lady focaccia casa costanera (7) 4987075119677440-00007 katherine boscan chile corporativo"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "livingston bandejeros - claro arena (202) 1493434486657908-00202 sin kam chile "}, {"pais": "Chile", "kam": "Katherine Barrera", "plat": "new", "nuevo": false, "early": false, "text": "punta del sol (1) 1269612994280245-00001 katherine barrera chile corporativo"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "sodexo - manuka (1) 1778862594827015-00001 sin kam chile "}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo salud - p3 clinica alemana puerto varas (64) 1446023949380383-00064 maría fernanda soto chile enterprise"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo salud - sanatorio aleman - clinica mujer - concepcion (52) 1446023949380383-00052 maría fernanda soto chile enterprise"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": false, "early": false, "text": "buche (1) 1752657808714298-00001 maria martinez chile basico"}, {"pais": "Chile", "kam": "Neyla Morales", "plat": "new", "nuevo": true, "early": false, "text": "cevicheria la negra (1) 1754268826355250-00001 neyla morales chile basico"}, {"pais": "Chile", "kam": "Maria Martinez", "plat": "new", "nuevo": true, "early": false, "text": "do�a tere con sabor (1) 5870728975220736-00001 maria martinez chile avanzado"}, {"pais": "Chile", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "fouilloux hotdog - claro arena (4) 1493434486657908-00004 sin kam chile "}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": false, "early": false, "text": "kamanga (1) 5732074762141696-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": false, "early": false, "text": "living club ovalle (1) 6257435044610048-00001 jose antonio silva chile avanzado"}, {"pais": "Chile", "kam": "Fernanda Herreros", "plat": "new", "nuevo": false, "early": false, "text": "ovo discoteque (1) 5528444315238400-00001 fernanda herreros chile corporativo"}, {"pais": "Chile", "kam": "Jose Antonio Silva", "plat": "new", "nuevo": false, "early": false, "text": "pizzer�a 7 hermano (1) 1324142342428247-00001 jose antonio silva chile corporativo"}, {"pais": "Chile", "kam": "Fernanda Rossel", "plat": "new", "nuevo": true, "early": false, "text": "r-lab (1) 1828517982341548-00001 fernanda rossel chile basico"}, {"pais": "Chile", "kam": "María Fernanda Soto", "plat": "new", "nuevo": false, "early": false, "text": "sodexo corporate - teva (95) 1446023949380383-00095 maría fernanda soto chile enterprise"}, {"pais": "Argentina", "kam": "Sin KAM", "plat": "new", "nuevo": true, "early": false, "text": "helader�a  del parque- buffet (1) 1782491467717625-00001 sin kam argentina "}, {"pais": "Argentina", "kam": "Camila Agüero", "plat": "new", "nuevo": true, "early": false, "text": "eleven  club (1) 1180641282276296-00001 camila agüero argentina avanzado"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": false, "early": false, "text": "alparke - locales (5) 1982994904223618-00005 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Andres Prada", "plat": "new", "nuevo": false, "early": false, "text": "martino burgers (1) 1931391535026957-00001 andres prada colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": false, "early": false, "text": "narko papas laureles (3) 1574620569647081-00003 adriana cadavid colombia avanzado"}, {"pais": "Colombia", "kam": "Natalia Gutierrez", "plat": "new", "nuevo": false, "early": false, "text": "onza (1) 1441281632798736-00001 natalia gutierrez colombia avanzado"}, {"pais": "Colombia", "kam": "Juan David Parra Gallego", "plat": "new", "nuevo": false, "early": false, "text": "onza nogal (2) 1441281632798736-00002 juan david parra gallego colombia avanzado"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "pilgryms buenavista santa marta (3) 1984728371535118-00003 sin kam colombia "}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "new", "nuevo": false, "early": false, "text": "tribal unicentro (4) 1163076264418822-00004 jenthely morales colombia corporativo"}, {"pais": "Colombia", "kam": "Adriana Cadavid", "plat": "new", "nuevo": false, "early": false, "text": "alparke - islas del sol (6) 1982994904223618-00006 adriana cadavid colombia corporativo"}, {"pais": "Colombia", "kam": "Jenthely Morales", "plat": "new", "nuevo": true, "early": false, "text": "imperium girardot (1) 1541381385244041-00001 jenthely morales colombia avanzado"}, {"pais": "Colombia", "kam": "Sin KAM", "plat": "new", "nuevo": false, "early": false, "text": "marlu panaderia (1) 1780087375682177-00001 sin kam colombia "}, {"pais": "Colombia", "kam": "Ricardo Robayo", "plat": "new", "nuevo": true, "early": false, "text": "restaurante nueva villa peruana (1) 1659356734728272-00001 ricardo robayo colombia basico"}];
 let currentVer = 'all';
 
 function switchTab(name, btn) {
